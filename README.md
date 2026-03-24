@@ -140,7 +140,7 @@ advanced SQL techniques.
 ## Author
 **Siyara Sathar**
 - 💼 LinkedIn: www.linkedin.com/in/siyara-sathar
-- 📧 Email: youremail@gmail.com
+- 📧 Email: siyarasathar18@gmail.com
 - 🐙 GitHub: https://github.com/siyaraaa18
 
 ---
