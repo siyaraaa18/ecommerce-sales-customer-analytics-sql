@@ -104,5 +104,44 @@ advanced SQL techniques.
    appearing in top revenue list needs business review
 
 ---
+## SQL Sections
+| Section | Description |
+|---|---|
+| Section 1 | Database Setup |
+| Section 2 | Table Creation |
+| Section 3 | Data Import |
+| Section 4 | Data Cleaning |
+| Section 5 | Exploratory Data Analysis |
+| Section 6 | Customer & RFM Analysis |
+| Section 7 | Advanced Analysis (CTEs + Window Functions) |
+| Section 8 | Business Insights Summary |
 
-## Project Structure
+---
+
+## Advanced SQL Techniques Used
+| Technique | Where Used |
+|---|---|
+| CTE (Common Table Expressions) | RFM Analysis, Cohort Analysis, Rankings |
+| LAG() | Month over Month Revenue Growth |
+| SUM() OVER() | Running Total Revenue |
+| RANK() / DENSE_RANK() | Customer Revenue Ranking |
+| NTILE() | RFM Scoring, Customer Quartiles |
+| FIRST_VALUE() | Cohort Retention Rate |
+| CASE WHEN | Customer Segmentation, RFM Segments |
+| DATEDIFF() | Recency Calculation |
+| NULLIF() | Empty String Handling |
+| STR_TO_DATE() | Date Format Conversion |
+
+---
+
+*Dataset Source: https://archive.ics.uci.edu/dataset/502/online+retail+ii*
+---
+
+## Author
+**Siyara Sathar**
+- 💼 LinkedIn: www.linkedin.com/in/siyara-sathar
+- 📧 Email: youremail@gmail.com
+- 🐙 GitHub: https://github.com/siyaraaa18
+
+---
+*This project was built as part of my Data Analyst portfolio*
