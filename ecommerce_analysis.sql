@@ -79,6 +79,7 @@ SELECT
     COALESCE(SUM(CASE WHEN customer_id IS NULL THEN 1 END), 0) AS null_customer_id,
     COALESCE(SUM(CASE WHEN country IS NULL THEN 1 END), 0) AS null_country
 FROM online_retail;
+
 -- Result: No NULL values found in any column
 
 -- ----------------------------------------
@@ -92,6 +93,7 @@ SELECT
     COALESCE(SUM(CASE WHEN customer_id = '' THEN 1 END), 0) AS empty_customer_id,
     COALESCE(SUM(CASE WHEN country = '' THEN 1 END), 0) AS empty_country
 FROM online_retail;
+
 -- Result: empty_description = 4,382 | empty_customer_id = 243,007 (22.8%)
 
 -- ----------------------------------------
@@ -226,6 +228,7 @@ SELECT
     MIN(invoice_date) AS first_order_date,
     MAX(invoice_date) AS last_order_date
 FROM online_retail_clean;
+
 -- Result: 40,077 orders | 5,878 customers | £20,476,260 revenue
 
 -- ----------------------------------------
@@ -346,7 +349,7 @@ LIMIT 10;
 -- ----------------------------------------
 -- 6.2 Repeat vs One-Time Customers
 -- ----------------------------------------
--- Q: How many customers came back vs bought once?
+-- Q: How many customers returned vs bought once?
 
 SELECT
     CASE 
